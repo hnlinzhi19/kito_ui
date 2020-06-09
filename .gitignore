@@ -1,0 +1,11 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+node_modules
+# dependencies
+/packages/*/node_modules
+/packages/*/node_modules
+/packages/*/yarn-error.log
+/packages/*/yarn.lock
+/packages/*/package-lock.json
+
+# production
+/packages/*/dist
